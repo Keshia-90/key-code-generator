@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
+*{
+    background-color: blueviolet;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    color: aquamarine;
+    text-align: center;
+    border-style: double;
+    border-width: 20px;
+    border-color: black;
+}
+h1{
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.5s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+    transform: rotateY(360deg) 
+    }
+}
+
+h3{
+    background-color: aquamarine;
+    animation: mymove 5s infinite;
+}
+
+.pressKey{
+    font-family: 'Indie Flower', cursive;
+    font-size: 90px;
+    color: aquamarine;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    background-color: aquamarine;
+    animation: mymove 5s infinite;
+}
+
+li{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 60px;
+    background-color: aquamarine;    
+    animation: mymove 5s infinite;
+}
+
+.border1{
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: rgb(120, 89, 89);
+    text-align: center;
+    width: 400px;
+    background-color: aquamarine;
+    animation: mymove 5s infinite;
+}
+
+.border2{
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: rgb(120, 89, 89);
+    text-align: center;
+    width: 400px;
+    background-color: aquamarine;
+    animation: mymove 5s infinite;
+}
+
+.border3{
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: rgb(120, 89, 89);
+    text-align: center;
+    width: 400px;
+    background-color: aquamarine;
+    animation: mymove 5s infinite;
+}
+
+.gen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+    
+    @keyframes mymove {
+        from {background-color: aquamarine;}
+        to {background-color: rgb(255, 0, 174);}
+    }
+
+
+
